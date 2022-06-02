@@ -1,8 +1,8 @@
 ## Pokemon API
 
-Here's a link to my Pokemon API list [here](https://pokemon-api-practice-02.herokuapp.com/api/pokemon)
+Here's a link to my Pokemon API list [here](https://pokemon-api-practice-02.herokuapp.com/api/pokemon).
 
-Here's a link to my favorite Pokemon [here](https://pokemon-api-practice-02.herokuapp.com/api/pokemon/6)
+Here's a link to my favorite Pokemon [here](https://pokemon-api-practice-02.herokuapp.com/api/pokemon/6).
 
 Your task is to build and deploy an API to create, read, update, and delete Pokemon. The API should:
 

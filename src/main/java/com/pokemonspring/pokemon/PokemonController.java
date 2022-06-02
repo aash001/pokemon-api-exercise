@@ -29,8 +29,8 @@ public class PokemonController {
   @GetMapping
   @ResponseStatus(HttpStatus.OK)
   public Map<String, Iterable<Pokemon>> list() {
-    Iterable<Pokemon> pokemons = pokemonService.list();
-    return createHashPlural(pokemons);
+    Iterable<Pokemon> pokemon = pokemonService.list();
+    return createHashPlural(pokemon);
   }
 
   @GetMapping("/{id}")
@@ -51,9 +51,9 @@ public class PokemonController {
 
   @PutMapping("/{id}")
   @ResponseStatus(HttpStatus.CREATED)
-  public Map<String, Pokemon> update(@RequestBody Pokemon pokemon, @PathVariable Long id) {
+  public Map<String, Pokemon> update(@RequestBody Pokemon someResource, @PathVariable Long id) {
     Pokemon updatedPokemon = pokemonService
-        .update(pokemon)
+        .update(someResource)
         .orElseThrow(() -> new ResourceNotFoundException("No pokemon with that ID"));
 
     return createHashSingular(updatedPokemon);
@@ -74,7 +74,7 @@ public class PokemonController {
 
   private Map<String, Iterable<Pokemon>> createHashPlural(Iterable<Pokemon> pokemons) {
     Map<String, Iterable<Pokemon>> response = new HashMap<String, Iterable<Pokemon>>();
-    response.put("pokemons", pokemons);
+    response.put("results", pokemons);
 
     return response;
   }

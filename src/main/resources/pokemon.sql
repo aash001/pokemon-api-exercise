@@ -3,11 +3,11 @@ DROP TABLE IF EXISTS pokemon;
 CREATE TABLE pokemon(
     id INTEGER PRIMARY KEY,
     name TEXT UNIQUE,
-    frontDefault TEXT UNIQUE
+    image TEXT UNIQUE
 );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         1,
@@ -16,7 +16,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         2,
@@ -25,7 +25,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         3,
@@ -34,7 +34,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         4,
@@ -43,7 +43,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         5,
@@ -52,7 +52,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         6,
@@ -61,7 +61,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         7,
@@ -70,7 +70,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         8,
@@ -79,7 +79,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         9,
@@ -88,7 +88,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         10,
@@ -97,7 +97,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         11,
@@ -106,7 +106,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         12,
@@ -115,7 +115,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         13,
@@ -124,7 +124,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         14,
@@ -133,7 +133,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         15,
@@ -142,7 +142,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         16,
@@ -151,7 +151,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         17,
@@ -160,7 +160,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         18,
@@ -169,7 +169,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         19,
@@ -178,7 +178,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, frontDefault)
+    pokemon(id, name, image)
 VALUES
     (
         20,

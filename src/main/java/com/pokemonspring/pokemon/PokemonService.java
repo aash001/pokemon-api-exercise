@@ -29,7 +29,7 @@ public class PokemonService {
 
       Pokemon updatedPokemon = foundPokemon.get();
       updatedPokemon.setName(pokemon.getName());
-      updatedPokemon.setFrontDefault(pokemon.getFrontDefault());
+      updatedPokemon.setImage(pokemon.getImage());
 
       pokemonRepository.save(updatedPokemon);
       return Optional.of(updatedPokemon);
